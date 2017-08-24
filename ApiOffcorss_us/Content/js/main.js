@@ -58,25 +58,21 @@ $(function () {
                 //},
                 data: data,
                 success: function (res) {
-                    if (res == '11000') {
-                        $('#email').addClass('wrong');
-                        $('#email').tooltip({
-                            'trigger': 'hover',
-                            'title': 'The e-mail already exists.',
-                            'placement': 'top'
-                        });
-                    } else {
-                        $('#email').removeClass('wrong');
-                        $('#email').tooltip({
-                            'trigger': 'hover',
-                            'title': 'The e-mail already exists.',
-                            'placement': 'top'
-                        });
-                        $(".form-container").toggleClass('done');
-                    }
+                    $('#email').removeClass('wrong');
+                    $('#email').tooltip({
+                        'trigger': 'hover',
+                        'title': 'The e-mail already exists.',
+                        'placement': 'top'
+                    });
+                    $(".form-container").toggleClass('done');
                 },
                 error: function (data) {
-                    alert('Error sending data!');
+                    $('#email').addClass('wrong');
+                    $('#email').tooltip({
+                        'trigger': 'hover',
+                        'title': 'The e-mail already exists.',
+                        'placement': 'top'
+                    });
                 }
             });
         } else if (!phoneBool) {

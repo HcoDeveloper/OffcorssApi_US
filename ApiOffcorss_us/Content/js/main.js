@@ -53,6 +53,9 @@ $(function () {
             $.ajax({
                 type: 'POST',
                 url: '/api/User/Save',
+                //headers: {
+                //    'Content-Type': 'application/x-www-form-urlencoded'
+                //},
                 data: data,
                 success: function (res) {
                     if (res == '11000') {

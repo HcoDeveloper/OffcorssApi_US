@@ -1,4 +1,3 @@
-c:\users\bs16-desarrollo\documents\visual studio 2017\Projects\ApiOffcorss_us\ApiOffcorss_us\obj\Debug\ApiOffcorss_us.csprojResolveAssemblyReference.cache
 c:\users\bs16-desarrollo\documents\visual studio 2017\Projects\ApiOffcorss_us\ApiOffcorss_us\bin\roslyn\csc.exe
 c:\users\bs16-desarrollo\documents\visual studio 2017\Projects\ApiOffcorss_us\ApiOffcorss_us\bin\roslyn\csc.exe.config
 c:\users\bs16-desarrollo\documents\visual studio 2017\Projects\ApiOffcorss_us\ApiOffcorss_us\bin\roslyn\csc.rsp

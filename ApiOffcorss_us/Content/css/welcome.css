@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 900;
+  background: url(http://offcorss.vteximg.com.br/arquivos/back-new-offcorss-v2.jpg); }
+  body .top-nav-wrapper {
+    padding: 0; }
+    body .top-nav-wrapper .optional {
+      height: 6vh;
+      background: black;
+      line-height: 6vh;
+      border-bottom: solid 1px #FFDC00;
+      color: white;
+      text-align: center; }
+    body .top-nav-wrapper .top-nav {
+      background: black;
+      height: 10vh; }
+      body .top-nav-wrapper .top-nav .logo {
+        height: 60%;
+        top: 20%;
+        background: url(../img/logo-OFFCORSS.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        cursor: pointer; }
+  body .body-wrap {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background: #7a6a75;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background: #594f69;
+    background: -moz-linear-gradient(top, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #594f69), color-stop(27%, #7e7a7b), color-stop(60%, #9cb693), color-stop(100%, #f5f6cc));
+    background: -webkit-linear-gradient(top, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
+    background: -o-linear-gradient(top, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
+    background: -ms-linear-gradient(top, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
+    background: linear-gradient(to bottom, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594f69', endColorstr='#f5f6cc', GradientType=0);
+    background: url(../img/fondo-1.jpg);
+    background-origin: inherit;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat; }
+    body .body-wrap #space {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: transparent; }
+    body .body-wrap .text {
+      margin-top: 5vh;
+      margin-bottom: 2.5vh;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      top: 1px;
+      font-size: 60px;
+      left: 0;
+      text-shadow: 2px 2px #32ddbb;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #5686ae;
+      font-weight: bold; }
+    body .body-wrap .text2 {
+      font-weight: bold;
+      margin-bottom: 2.5vh;
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      font-size: 55px;
+      margin-top: -2vh; }
+    body .body-wrap .text3 {
+      margin-bottom: 1vh;
+      font-weight: bold;
+      text-align: center;
+      color: #32ddbb;
+      text-transform: uppercase;
+      font-size: 50px; }
+    body .body-wrap .selection a .country {
+      cursor: pointer;
+      background: transparent;
+      transition: all .3s ease; }
+    body .body-wrap .selection a:nth-child(1) .country {
+      text-align: center;
+      text-transform: uppercase;
+      top: 1px;
+      font-size: 50px;
+      left: 0;
+      font-weight: bold;
+      border: solid 2px white;
+      background: #32ddbb;
+      color: white;
+      text-shadow: 2px 2px #5686ae;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      left: -5px; }
+      body .body-wrap .selection a:nth-child(1) .country:hover {
+        background: white;
+        text-shadow: 2px 2px #32ddbb;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #5686ae;
+        border-color: #32ddbb; }
+    body .body-wrap .selection a:nth-child(2) .country {
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      top: 1px;
+      font-size: 50px;
+      left: 0;
+      font-weight: bold;
+      background: #32ddbb;
+      border: solid 2px white;
+      color: white;
+      text-shadow: 2px 2px #5686ae;
+      -webkit-text-stroke-color: white;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      left: 5px; }
+      body .body-wrap .selection a:nth-child(2) .country:hover {
+        background: white;
+        text-shadow: 2px 2px #32ddbb;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #5686ae;
+        border-color: #32ddbb; }
+    body .body-wrap .img-container {
+      height: auto;
+      margin-top: 5vh;
+      margin-bottom: 15vh; }
+      body .body-wrap .img-container img {
+        padding: 0;
+        box-shadow: 30px 30px 0 white; }
+  body .footer {
+    height: auto;
+    background: black; }
+    body .footer .country-wrap .country-selection a span.flag {
+      background: url(../img/colombia.png);
+      height: 4vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: 4vh; }
+    body .footer .logo {
+      height: 6vh;
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+      background: url(../img/logo-OFFCORSS.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    body .footer .politics h6 {
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      margin: 0;
+      transition: all .2s ease;
+      margin-bottom: 2vh; }
+      body .footer .politics h6:hover {
+        color: #FFDC00; }
+  @media (max-width: 767px) {
+    body .body-wrap {
+      min-height: 100vh;
+      padding: 0; }
+      body .body-wrap .text {
+        font-size: 35px; }
+      body .body-wrap .text2 {
+        font-size: 30px; }
+      body .body-wrap .text3 {
+        font-size: 28px; }
+      body .body-wrap .selection {
+        padding: 0;
+        overflow: hidden; }
+        body .body-wrap .selection a:nth-child(1) .country {
+          font-size: 30px; }
+        body .body-wrap .selection a:nth-child(2) .country {
+          font-size: 30px; }
+      body .body-wrap .img-container {
+        margin-bottom: 10vh; }
+        body .body-wrap .img-container img {
+          box-shadow: 15px 15px 0 white; } }
+
+/*# sourceMappingURL=welcome.css.map */

@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i");
+@font-face {
+  font-family: 'FrontageCondensed-Regular';
+  src: url('http://offcorss.vteximg.com.br/arquivos/font-FrontageCondensed-Regular.eot.css');
+  src: url('http://offcorss.vteximg.com.br/arquivos/font-FrontageCondensed-Regular.woff2.css') format('woff2'),
+       url('http://offcorss.vteximg.com.br/arquivos/font-FrontageCondensed-Regular.woff.css') format('woff'),
+       url('http://offcorss.vteximg.com.br/arquivos/font-FrontageCondensed-Regular.ttf.css') format('truetype'),
+       url('http://offcorss.vteximg.com.br/arquivos/font-FrontageCondensed-Regular.svg.css#FrontageCondensed-Regular') format('svg'),
+       url('http://offcorss.vteximg.com.br/arquivos/font-FrontageCondensed-Regular.eot.css?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+ .vertical-align-middle {
+   float: none;
+    vertical-align: middle;
+    display: inline-block;
+	}
+body {
+  font-family: 'Roboto', sans-serif; }
+  body .top-nav-wrapper {
+    padding: 0; }
+    body .top-nav-wrapper .optional {
+      height: 6vh;
+      background: black;
+      line-height: 6vh;
+      border-bottom: solid 1px #FFDC00;
+      color: white;
+      text-align: center; }
+    body .top-nav-wrapper .top-nav {
+      background: black;
+      height: 8vh; }
+      body .top-nav-wrapper .top-nav .logo {
+        height: 60%;
+        top: 20%;
+        background: url(../img/logo-OFFCORSS.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        cursor: pointer; }
+      body .top-nav-wrapper .top-nav a.country-selection {
+    color: #fff;
+    font-family: 'FrontageCondensed-Regular';
+    font-size: 20px;}
+      body .top-nav-wrapper .top-nav a.country-selection:hover {
+    text-decoration: none;}
+      body .top-nav-wrapper .top-nav a.country-selection  span.flag {
+      background: url(../img/colombia.png);
+      height:20px;
+      background-size: contain;
+      background-repeat: no-repeat; }
+  body .content {
+    height: auto;
+    padding: 0;
+    background: url(http://offcorss.vteximg.com.br/arquivos/back-new-offcorss-v2.jpg); }
+    body .content .section1 {
+      padding: 5vh 0;
+      background: url(../img/banner.jpg);
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+		  body .content .section1 .form-container h4 {
+			    font-family: 'FrontageCondensed-Regular';
+			  font-size:20px;
+			}
+		  body .content .section1 .info-container h3 {
+			    font-family: 'FrontageCondensed-Regular';
+			  font-size:27px;
+			 margin-bottom: 40px;
+			}
+		  body .content .section1 .info-container h3 strong {
+			    font-family: 'FrontageCondensed-Regular';
+			  font-size:37px;
+			  display: block
+			}
+		  body .content .section1 .info-container a {
+			background: #01c2d1;
+			transition: all .3s ease;
+			border: none;
+			outline: none;
+			display: inline-block;
+			padding: 2% 4%; }
+            body .content .section1 .info-container a:hover {
+              background: #01daea; }
+      body .content .section1 .form-container {
+        background: linear-gradient(135deg, #9fc0b7 0%, #9fc0b7 39%, #c7c8e7 100%);
+        box-shadow: 10px 15px 0px white;
+        overflow: hidden; }
+        body .content .section1 .form-container .registration {
+          transition: all .3s ease;
+          right: 0; }
+          body .content .section1 .form-container .registration .logo-white {
+            background: url(../img/logo-OFFCORSS-blanco.png);
+            height: 5vh;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 3vh;
+            margin-bottom: 3vh; }
+          body .content .section1 .form-container .registration input,
+          body .content .section1 .form-container .registration select {
+            margin-top: 1vh;
+            height: 5vh;
+            transition: all .2s ease;
+            border-bottom: solid 2px transparent; }
+            body .content .section1 .form-container .registration input.wrong,
+            body .content .section1 .form-container .registration select.wrong {
+              border-bottom: solid 2px orangered; }
+          body .content .section1 .form-container .registration h5 {
+            margin: 0;
+            height: 5vh;
+            line-height: 5vh;
+            margin-top: 1vh; }
+          body .content .section1 .form-container .registration label input {
+            height: inherit;
+            margin-top: 2.5vh; }
+          body .content .section1 .form-container .registration label a {
+            color: white;
+            transition: all .2s ease; }
+          body .content .section1 .form-container .registration label.wrong a {
+            color: orangered; }
+          body .content .section1 .form-container .registration button {
+            margin-top: 1vh;
+            margin-bottom: 7vh;
+            background: #01c2d1;
+            transition: all .3s ease;
+            border: none;
+            outline: none;
+            height: 6vh;
+            line-height: 6vh;
+            text-shadow: -2px 0px white; }
+            body .content .section1 .form-container .registration button:hover {
+              background: #01daea; }
+        body .content .section1 .form-container .registration-done {
+          position: absolute;
+          left: 100%;
+          transition: all .3s ease;
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          top: 25%;
+          text-transform: uppercase; }
+          body .content .section1 .form-container .registration-done h1 {
+            font-weight: 100; }
+        body .content .section1 .form-container.done .registration {
+          right: 100%; }
+        body .content .section1 .form-container.done .registration-done {
+          left: 0%; }
+    body .content .section2 {
+      background: white;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+      body .content .section2 .banner-container {
+        padding: 8vh 0; }
+        body .content .section2 .banner-container a {
+          padding: 0; }
+          body .content .section2 .banner-container a img {
+            padding: 0;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+  body .footer {
+    height: auto;
+    background: black; 
+    padding-bottom: 2vh;}
+    body .footer  a.country-selection  span.flag {
+      background: url(../img/colombia.png);
+      height:20px;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    body .footer .logo {
+      height: 3vh;
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+      background: url(../img/logo-OFFCORSS.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    body .footer .politics h6 {
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      margin: 0;
+      transition: all .2s ease;
+      margin-right: 2vh; }
+      body .footer .politics h6:hover {
+        color: #FFDC00; }
+
+.tooltip-inner {
+  background: linear-gradient(135deg, #9fc0b7 0%, #9fc0b7 39%, #c7c8e7 100%);
+  border: solid 1px white;
+  font-size: 15px; }
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: white; }
+
+/*# sourceMappingURL=main.css.map */

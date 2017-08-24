@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<script>
+    console.log(localStorage);
+
+</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to OFFCORSS</title>
+    <link href="Content/css/bootstrap.css" rel="stylesheet" />
+    <link href="Content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/css/welcome.css" rel="stylesheet" />
+</head>
+
+<body>
+   <div class="col-xs-12 top-nav-wrapper">
+        <div class="col-xs-12 optional hidden">Optional</div>
+        <div class="col-xs-12 top-nav">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5 logo"></div>
+        </div>
+    </div>
+    <div class="body-wrap col-xs-12 col-sm-10 col-sm-offset-1">
+        <canvas id="space"></canvas>
+        <div class="text col-xs-12">Welcome to this funny trip!</div>
+        <div class="col-xs-12 text2">Come with us to live this colorful story</div>
+        <div class="col-xs-12 text3">Select your location</div>
+        <div class="col-xs-12 selection">
+            <a href="http://www.offcorss.com">
+                <div class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 country">Colombia</div>
+            </a>
+            <a href="/form.html">
+                <div class="col-xs-6 col-sm-5 col-md-4 country">US</div>
+            </a>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 img-container">
+            <img src="Content/img/Offcross_Day1-11.jpg" alt="" class="col-xs-12 col-sm-8 col-sm-offset-2">
+        </div>
+    </div>
+    <div class="col-xs-12 footer">
+        <div class="col-xs-12 col-sm-12 logo"></div>
+    </div>
+
+    <script src="Content/js/jquery.js"></script>
+    <script src="Content/js/bootstrap.js"></script>
+    <script src="Content/js/welcome.js"></script>
+    <script>
+        $(function () {
+            $('.selection > a').click(function () {
+                console.log($(this).index());
+            })
+        })
+
+    </script>
+</body>
+</html>

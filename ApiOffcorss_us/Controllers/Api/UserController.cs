@@ -14,7 +14,7 @@ namespace ApiOffcorss_us.Controllers.Api
 {
     public class UserController : ApiController
     {
-        [HttpPost]
+        [HttpGet]
         public IHttpActionResult GetUsers()
         {
             if (!ModelState.IsValid)
